@@ -1,7 +1,15 @@
 #include <iostream>
-#include <vector>
+#include <fstream>
+#include <limits>
+#include <string>
+#include <sstream>
+#include <cmath>
+#include <stdio.h>
+#include "functions.h"
 
-#include <lib/lr1.h>
+#define INPUT_FILE  "input.txt"
+#define OUTPUT_FILE "output.txt"
+using namespace std;
 
 int main() {
     std::vector<int> arr = {10, 14, 15, 20, 21, 25, 30};
